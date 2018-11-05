@@ -1,0 +1,5 @@
+BOT_get_data_step1-B.ipynb -- 全部数据加载、并计算grid_id，因为我本地磁盘空间不够了，按日期分了两次加载（1月的数据和后面的数据）
+BOT_get_data_step2-B.ipynb -- 合并step1出来的文件，并统计每小时的车辆数；同时按grid_id输出了50份表格，想着后面每个grid_id单独训练，看下效果。
+BOT_baseline-B.ipynb       -- 融入天气特征，一些常规特征处理，训练了LinearRegression、RandomForestRegressor、GradientBoostingRegressor 3个模型，发现LinearRegression效果没法跟其他的比。
+BOT_xgboost_baseline-B.ipynb -- 训练xgboost的模型
+merge_result.ipynb  -- 融合了RandomForestRegressor、GradientBoostingRegressor、xgboost 3个模型的结果，最高得分就是这个结果（7.1417）。随机森林简单调参后的结果（7.1437）
