@@ -1,4 +1,4 @@
-# BOT-
+# BOT-challenge
 赛事地址：[BOT智能汽车技术挑战赛](http://www.datadreams.org/#/raceDetail/raceSummary?raceid=120)
 
 ## 赛题说明
